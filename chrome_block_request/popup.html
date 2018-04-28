@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>编辑</title>
+    <script type="text/javascript" src="js/change.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+</head>
+
+<body>
+    <div style="width:400px">
+        <label>输入要被拦截的url</label>
+        <input id="url_value" placeholder="输入要被拦截的url,支持模糊匹配"></input>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th style="text-align: left;">
+                        拦截列表
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="block_list">
+                <!-- <tr>
+                    <td>水电费</td>
+                </tr> -->
+            </tbody>
+            <!-- <tfoot>
+                <tr>
+                    <td>Sum</td>
+                </tr>
+            </tfoot> -->
+        </table>
+        <button id="add">增加</button>
+        <button id="remove">删除</button>
+        <button id="clear">清除</button>
+    </div>
+</body>
+
+</html>
