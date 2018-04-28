@@ -5,3 +5,18 @@ chrome的插件，方便平时工作使用
 
 
 [0]:http://www.cnblogs.com/shengulong/p/8946721.html
+
+
+## 功能列表
+- 用户可以拦截指定url
+- 拦截url支持模糊匹配
+- 用户可以减少拦截url
+- 用户可以查看拦截url
+
+## TODO
+
+- 增加设置按钮
+- 增加文档说明
+- 用户可以输入拦截url
+- 用户可以删除拦截的url
+
