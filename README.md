@@ -21,7 +21,7 @@ chrome的插件，方便平时工作使用
 
 
 ### 参考：
-1、https://github.com/annnhan/ReRes [1]
+1、https://github.com/annnhan/ReRes
 
 [0]:http://www.cnblogs.com/shengulong/p/8946721.html
 [1]:https://github.com/annnhan/ReRes
