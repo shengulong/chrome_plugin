@@ -18,7 +18,7 @@ chrome的插件，方便平时工作使用
 - 增加文档说明
 - 用户可以输入拦截url
 - 用户可以删除拦截的url
-
+- 批量规则导入和导出功能
 
 ### 参考：
 - 1、https://github.com/annnhan/ReRes
