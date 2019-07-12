@@ -21,8 +21,9 @@ chrome的插件，方便平时工作使用
 - 批量规则导入和导出功能
 
 ### 参考：
-- 1、https://github.com/annnhan/ReRes
-- 2、https://github.com/qiqiboy/chrome-extension-development
+- https://github.com/annnhan/ReRes
+- https://github.com/qiqiboy/chrome-extension-development
 
-[0]:http://www.cnblogs.com/shengulong/p/8946721.html
-[1]:https://github.com/annnhan/ReRes
+### 相关链接：
+
+- http://www.cnblogs.com/shengulong/p/8946721.html

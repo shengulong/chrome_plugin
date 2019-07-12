@@ -8,36 +8,63 @@
     <title>编辑</title>
     <script type="text/javascript" src="js/change.js"></script>
     <script type="text/javascript" src="js/popup.js"></script>
+
+    <style>
+        * {
+            margin: 5px;
+            padding: 0;
+        }
+
+        body {
+            width: 400px;
+        }
+
+        div {
+            line-height: 20px;
+            font-size: 15px;
+            text-align: left;
+            overflow-y: auto;
+            height: 100%;
+        }
+
+        table {
+            text-align: left;
+        }
+    </style>
 </head>
 
 <body>
-    <div style="max-width:1000px">
-        <div style="white-space:nowrap;">
-            <label>输入要被拦截的url</label>
-            <input id="url_value" placeholder="输入要被拦截的url,支持模糊匹配"></input>
+    <div>
+        <div>
+            <label>请输入要被拦截的url</label>
+            <input id="url_value" placeholder="支持模糊匹配~"></input>
             <button id="add">增加</button>
         </div>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th style="text-align: left;">
-                        拦截列表
-                    </th>
-                </tr>
-            </thead>
-            <tbody id="block_list">
-                <!-- <tr>
+        <div>
+            <table border="0">
+                <thead>
+                    <tr>
+                        <th>
+                            拦截列表
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="block_list">
+                    <!-- <tr>
                     <td>水电费</td>
                 </tr> -->
-            </tbody>
-            <!-- <tfoot>
+                </tbody>
+                <!-- <tfoot>
                 <tr>
                     <td>Sum</td>
                 </tr>
             </tfoot> -->
-        </table>
-        <button id="remove">点击相应行进行删除</button>
-        <button id="clear">清除</button>
+            </table>
+        </div>
+        <div>
+            <button id="remove">点击记录即可删除</button>
+            <button id="clear">全部清除</button>
+        </div>
     </div>
 </body>
 
